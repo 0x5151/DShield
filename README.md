@@ -7,7 +7,7 @@ Encoder and Decoder your string with php
 Encoder and Decoder :
 ```
 <?php
-include 'dshield.php'
+include 'dshield.php';
 $DShield = new DShield();
 
 $encoded_string = $DShield->encode("Hello World");
